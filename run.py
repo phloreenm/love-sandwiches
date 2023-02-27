@@ -38,6 +38,7 @@ def validate_data(values):
     or if there aren't exactly 6 values.
     """
     try:
+        # list comprehension: for each individual value in the valuesa list, convert it to an integer
         [int(value) for value in values]
         if len(values) != 6:
             raise ValueError(
