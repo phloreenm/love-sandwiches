@@ -14,3 +14,4 @@
 
 - Add SCOPEs
 - Call 'sales' worksheet data
+- To run the Python file ```python run.py```
