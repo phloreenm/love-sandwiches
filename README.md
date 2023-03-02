@@ -11,7 +11,7 @@
     - use the two libraries by importing them in the Pyhton code in separate lines:
         - ```import gspread```
         - ```from google.oauth2.service_account import Credentials```
-
+    - you need to create an api-cred.json file and paste your API token generated at [googleapis.com](https://oauth2.googleapis.com/token) in your account.
 - Add SCOPEs
 - Call 'sales' worksheet data
-- To run the Python file ```python run.py```
+- To run the Python file ```python ch.py```
